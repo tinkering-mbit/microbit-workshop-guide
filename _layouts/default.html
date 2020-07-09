@@ -20,7 +20,7 @@
     </header>
     {% assign pages = site.pages | where: "layout", "default" | sort: "url" %}
     <nav>
-      <details>
+      <details open>
         <summary>目次</summary>
         <ul>
           {% for page in pages %}{% if page.url != "/" %}
