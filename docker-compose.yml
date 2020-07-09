@@ -1,0 +1,9 @@
+version: "3"
+services:
+  jekyll:
+    image: docker.pkg.github.com/tinkering-mbit/microbit-workshop-guide/jekyll
+    build:
+      context: https://github.com/github/pages-gem.git
+      dockerfile: Dockerfile.alpine
+    ports: ["4000:4000"]
+    volumes: [".:/src/site"]

@@ -1,0 +1,8 @@
+<ul>
+  {% for item in include.node %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% if item.sub %}
+      {% include link-tree.html node=item.sub %}
+    {% endif %}
+  {% endfor %}
+</ul>

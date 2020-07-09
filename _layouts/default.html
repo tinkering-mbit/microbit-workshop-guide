@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <head>
+    <meta charset="utf-8" />
+    {% seo %}
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <a href="{{ site.url }}">トップ</a> |
+        <a href="{{ site.github.repository_url }}">GitHub</a> |
+        <a href="https://www.google.com/search?q=site:{{ site.url }}">検索</a>
+      </nav>
+    </header>
+    {% assign pages = site.pages | where: "layout", "default" | sort: "url" %}
+    <nav>
+      <details>
+        <summary>目次</summary>
+        <ul>
+          {% for page in pages %}{% if page.url != "/" %}
+          <li>
+            <a href="{{ page.url }}">{{ page.title | default: page.url }}</a>
+          </li>
+          {% endif %}{% endfor %}
+        </ul>
+      </details>
+    </nav>
+    {{ content }}
+    <hr />
+    <aside>
+      <p>{% github_edit_link "GitHub で編集する" %}</p>
+      <p>{{ "now" | date: "%Y-%m-%d %H:%M JST" }} 更新</p>
+    </aside>
+  </body>
+</html>

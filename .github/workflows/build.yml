@@ -1,0 +1,11 @@
+name: build
+on: push
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: docker login https://docker.pkg.github.com -u "${GITHUB_ACTOR}" -p "${{ github.token }}"
+      - run: docker-compose pull
+      - run: docker-compose build
+      - run: docker-compose push
