@@ -34,8 +34,10 @@
     {{ content }}
     <hr />
     <aside>
-      <p>{% github_edit_link "GitHub で編集する" %}</p>
-      <p>{{ "now" | date: "%Y-%m-%d %H:%M JST" }} 更新</p>
+      <small>
+        {{ "now" | date: "%Y-%m-%d %H:%M JST" }} 更新: {% github_edit_link "GitHub で編集する" %}<br />
+        もしこのページに何か問題あれば<a href={{ site.github.issues_url }}>GitHub Issues</a>にてご報告ください
+      </small>
     </aside>
   </body>
 </html>
