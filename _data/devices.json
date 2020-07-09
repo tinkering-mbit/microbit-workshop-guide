@@ -113,11 +113,11 @@
     {
       "row_id": 13,
       "種別": "入力装置",
-      "名称": "ジェスチャー",
+      "名称": "ジェスチャーセンサー",
       "対象の物理量または現象": "運動",
-      "品名": "PAJ7620U2",
+      "品名": "PAJ7620U2 (Grove ジェスチャーセンサー)",
       "メモ": "",
-      "サンプルコード.URL": "https://makecode.microbit.org/pkg/makecode-extensions/bme280",
+      "サンプルコード.URL": "https://makecode.microbit.org/pkg/seeed-studio/pxt-grove",
       "サンプルコード.名称": "Grove (ジェスチャーの取得)"
     },
     {
@@ -126,7 +126,7 @@
       "名称": "湿度・気圧センサー",
       "対象の物理量または現象": "温度 (℃)・湿度 (%)・気圧 (Pa)",
       "品名": "BME280",
-      "メモ": "1個しか無いので6個手配中",
+      "メモ": "",
       "サンプルコード.URL": "https://makecode.microbit.org/pkg/makecode-extensions/bme280",
       "サンプルコード.名称": "BME280 (温度・湿度・気圧計)"
     },
@@ -136,7 +136,7 @@
       "名称": "ロードセル",
       "対象の物理量または現象": "質量",
       "品名": "ロードセル/HX711",
-      "メモ": "2個しか無いので3個手配中",
+      "メモ": "",
       "サンプルコード.URL": "https://makecode.microbit.org/_VgJdgR7bkfxR",
       "サンプルコード.名称": "hx711-example (簡易電子はかり)"
     },
