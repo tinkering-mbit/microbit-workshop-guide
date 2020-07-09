@@ -1,0 +1,10 @@
+#!/bin/bash
+# 最新のデバイス一覧を取得
+# Usage: bin/fetch
+# Required: curl, jq
+
+set -eo pipefail
+cd -- "$(dirname -- "$0")/.."
+curl \
+  "https://v1.nocodeapi.com/watanabe/google_sheets/kXKqhAYKvwMrCrkg?tabId=api" \
+  | jq > "_data/devices.json"

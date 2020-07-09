@@ -1,0 +1,215 @@
+{
+  "data": [
+    {
+      "row_id": 2,
+      "種別": "入力装置",
+      "名称": "温度センサー",
+      "対象の物理量または現象": "温度 (℃)",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://microbit.org/projects/make-it-code-it/thermometer/",
+      "サンプルコード.名称": "Thermometer (温度計)"
+    },
+    {
+      "row_id": 3,
+      "種別": "入力装置",
+      "名称": "加速度センサー",
+      "対象の物理量または現象": "重力加速度 (G)",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/examples/plot-acceleration",
+      "サンプルコード.名称": "Plot Acceleration (加速度計)"
+    },
+    {
+      "row_id": 4,
+      "種別": "入力装置",
+      "名称": "加速度センサー",
+      "対象の物理量または現象": "角度",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/reference/input/rotation",
+      "サンプルコード.名称": "Rotation (回転)"
+    },
+    {
+      "row_id": 5,
+      "種別": "入力装置",
+      "名称": "加速度センサー",
+      "対象の物理量または現象": "運動・ゆさぶられたら",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://microbit.org/projects/make-it-code-it/step-counter/",
+      "サンプルコード.名称": "Step counter (歩数計)"
+    },
+    {
+      "row_id": 6,
+      "種別": "入力装置",
+      "名称": "明るさセンサー",
+      "対象の物理量または現象": "照度",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://microbit.org/projects/make-it-code-it/sunlight-sensor/",
+      "サンプルコード.名称": "Sunlight sensor (日照センサー)"
+    },
+    {
+      "row_id": 7,
+      "種別": "入力装置",
+      "名称": "コンパス",
+      "対象の物理量または現象": "地磁気",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/projects/compass",
+      "サンプルコード.名称": "コンパス"
+    },
+    {
+      "row_id": 8,
+      "種別": "入力装置",
+      "名称": "A/Bボタン",
+      "対象の物理量または現象": "力・押したら",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/projects/smiley-buttons",
+      "サンプルコード.名称": "スマイリーボタン"
+    },
+    {
+      "row_id": 9,
+      "種別": "入力装置",
+      "名称": "タッチセンサー",
+      "対象の物理量または現象": "静電容量・指が触れたら",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/reference/input/on-pin-pressed",
+      "サンプルコード.名称": "On Pin Pressed (端子に触れた回数)"
+    },
+    {
+      "row_id": 10,
+      "種別": "入力装置",
+      "名称": "タイマー",
+      "対象の物理量または現象": "時間 (s)",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/projects/stopwatch",
+      "サンプルコード.名称": "Stopwatch (ストップウォッチ)"
+    },
+    {
+      "row_id": 11,
+      "種別": "入力装置",
+      "名称": "超音波測距センサー",
+      "対象の物理量または現象": "距離 (cm)",
+      "品名": "HC-SR04",
+      "メモ": "",
+      "サンプルコード.URL": "http://www.micro-bit.info/microbit%e5%b0%82%e7%94%a8-37in%e3%82%b9%e3%82%bf%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%88/%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%8821%ef%bc%9a%e8%b6%85%e9%9f%b3%e6%b3%a2%e6%b8%ac%e8%b7%9d%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc",
+      "サンプルコード.名称": "超音波測距センサー"
+    },
+    {
+      "row_id": 12,
+      "種別": "入力装置",
+      "名称": "サウンドセンサー",
+      "対象の物理量または現象": "音",
+      "品名": "サウンドセンサーモジュール",
+      "メモ": "",
+      "サンプルコード.URL": "http://www.micro-bit.info/microbit%e5%b0%82%e7%94%a8-37in%e3%82%b9%e3%82%bf%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%88/%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%8824%ef%bc%9a%e9%9f%b3%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bc",
+      "サンプルコード.名称": "音センサー"
+    },
+    {
+      "row_id": 13,
+      "種別": "入力装置",
+      "名称": "ジェスチャー",
+      "対象の物理量または現象": "運動",
+      "品名": "PAJ7620U2",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/pkg/makecode-extensions/bme280",
+      "サンプルコード.名称": "Grove (ジェスチャーの取得)"
+    },
+    {
+      "row_id": 14,
+      "種別": "入力装置",
+      "名称": "湿度・気圧センサー",
+      "対象の物理量または現象": "温度 (℃)・湿度 (%)・気圧 (Pa)",
+      "品名": "BME280",
+      "メモ": "1個しか無いので6個手配中",
+      "サンプルコード.URL": "https://makecode.microbit.org/pkg/makecode-extensions/bme280",
+      "サンプルコード.名称": "BME280 (温度・湿度・気圧計)"
+    },
+    {
+      "row_id": 15,
+      "種別": "入力装置",
+      "名称": "ロードセル",
+      "対象の物理量または現象": "質量",
+      "品名": "ロードセル/HX711",
+      "メモ": "2個しか無いので3個手配中",
+      "サンプルコード.URL": "https://makecode.microbit.org/_VgJdgR7bkfxR",
+      "サンプルコード.名称": "hx711-example (簡易電子はかり)"
+    },
+    {
+      "row_id": 16,
+      "種別": "入力装置",
+      "名称": "ジョイスティック",
+      "対象の物理量または現象": "力・傾けたら",
+      "品名": "ジョイスティックモジュール",
+      "メモ": "",
+      "サンプルコード.URL": "http://www.micro-bit.info/microbit%e5%b0%82%e7%94%a8-37in%e3%82%b9%e3%82%bf%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%88/%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%8836%ef%bc%9a%e3%82%b8%e3%83%a7%e3%82%a4%e3%82%b9%e3%83%86%e3%82%a3%e3%83%83%e3%82%af",
+      "サンプルコード.名称": "ジョイスティック"
+    },
+    {
+      "row_id": 17,
+      "種別": "出力装置",
+      "名称": "LED画面",
+      "対象の物理量または現象": "光",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/_0s93km81E0v7",
+      "サンプルコード.名称": "katakana-example (カタカナの表示)"
+    },
+    {
+      "row_id": 18,
+      "種別": "出力装置",
+      "名称": "NeoPixel",
+      "対象の物理量または現象": "光",
+      "品名": "NeoPixel",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/pkg/microsoft/pxt-neopixel",
+      "サンプルコード.名称": "NeoPixel driver"
+    },
+    {
+      "row_id": 19,
+      "種別": "出力装置",
+      "名称": "圧電スピーカー",
+      "対象の物理量または現象": "音",
+      "品名": "圧電スピーカー",
+      "メモ": "",
+      "サンプルコード.URL": "http://www.micro-bit.info/microbit%e5%b0%82%e7%94%a8-37in%e3%82%b9%e3%82%bf%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%88/%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%886%ef%bc%9a%e9%9f%b3%e6%a5%bd%e3%82%92%e5%86%8d%e7%94%9f%e3%81%99%e3%82%8b",
+      "サンプルコード.名称": "音楽を再生する"
+    },
+    {
+      "row_id": 20,
+      "種別": "出力装置",
+      "名称": "サーボモーター",
+      "対象の物理量または現象": "角度",
+      "品名": "マイクロサーボ SG90",
+      "メモ": "",
+      "サンプルコード.URL": "https://www.micro-bit.info/microbit%e5%b0%82%e7%94%a8-37in%e3%82%b9%e3%82%bf%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%88/%e3%83%97%e3%83%ad%e3%82%b8%e3%82%a7%e3%82%af%e3%83%8837%ef%bc%9a%e3%83%9e%e3%82%a4%e3%82%af%e3%83%ad%e3%82%b5%e3%83%bc%e3%83%9c%e3%83%a2%e3%83%bc%e3%82%bf%e3%83%bc",
+      "サンプルコード.名称": "マイクロサーボモーター"
+    },
+    {
+      "row_id": 21,
+      "種別": "出力装置",
+      "名称": "連続回転サーボモーター",
+      "対象の物理量または現象": "回転運動",
+      "品名": "連続回転サーボ SG90-HV",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/reference/servos/run",
+      "サンプルコード.名称": "servo (3秒間時計回りに動かす)"
+    },
+    {
+      "row_id": 22,
+      "種別": "他",
+      "名称": "Bluetooth",
+      "対象の物理量または現象": "電磁波",
+      "品名": "micro:bit 内蔵",
+      "メモ": "",
+      "サンプルコード.URL": "https://makecode.microbit.org/projects/voting-machine",
+      "サンプルコード.名称": "投票マシーン"
+    }
+  ],
+  "total": 21
+}

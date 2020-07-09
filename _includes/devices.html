@@ -1,0 +1,23 @@
+<table>
+  <caption>
+    代表的なセンサー・アクチュエーター
+  </caption>
+  <tr>
+    <th>種別</th>
+    <th>名称</th>
+    <th>物理量/現象</th>
+    <th>サンプルコード</th>
+  </tr>
+  {% for device in site.data.devices.data %}
+  <tr>
+    <td>{{ device['種別'] }}</td>
+    <td>{{ device['名称'] }} ({{ device['品名'] }})</td>
+    <td>{{ device['対象の物理量または現象'] }}</td>
+    <td>
+      <a href="{{ device['サンプルコード.URL'] }}" target="_blank"
+        >{{ device['サンプルコード.名称'] }}</a
+      >
+    </td>
+  </tr>
+  {% endfor %}
+</table>
