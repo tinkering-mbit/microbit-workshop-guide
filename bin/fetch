@@ -7,4 +7,4 @@ set -eo pipefail
 cd -- "$(dirname -- "$0")/.."
 curl \
   "https://v1.nocodeapi.com/watanabe/google_sheets/kXKqhAYKvwMrCrkg?tabId=api" \
-  | jq > "_data/devices.json"
+  | jq . > "_data/devices.json"
