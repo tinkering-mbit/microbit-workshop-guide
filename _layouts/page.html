@@ -18,12 +18,11 @@
         <a href="https://www.google.com/search?q=site:{{ '/' | absolute_url }}">検索</a>
       </nav>
     </header>
-    {% assign pages = site.pages | where: "layout", "default" | sort: "url" %}
+    {% assign pages = site.pages | where: "layout", "page" | sort: "url" %}
     <nav>
       <details open>
         <summary>目次</summary>
         <ul>
-          <!-- {{ site.pages | first }} -->
           {% for page in pages %}{% if page.url != "/" %}
           <li>
             <a href="{{ page.url | relative_url }}">{{ page.title | default: page.url }}</a>
