@@ -8,6 +8,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   </head>
   <body>
     <header>
@@ -33,11 +38,20 @@
     </nav>
     {{ content }}
     <hr />
-    <aside>
-      <small>
-        {{ "now" | date: "%Y-%m-%d %H:%M JST" }} 更新: {% github_edit_link "GitHub で編集する" %}<br />
-        もしこのページに何か問題あれば<a href={{ site.github.issues_url }}>GitHub Issues</a>にてご報告ください
-      </small>
-    </aside>
+    <small>
+      {{ "now" | date: "%Y-%m-%d %H:%M JST" }} 更新: {% github_edit_link "GitHubで編集する" %}<br />
+      もしこのページに何か問題あれば<a href="{{ site.github.issues_url }}">GitHub Issues</a>にてご報告ください
+    </small>
+    <div id="gitalk-container"></div>
+    <script>
+      new Gitalk({
+        clientID: "4c077406bd84d9cce05b",
+        clientSecret: "34779af7b28cf6c8d87559135dbfc8377c28a365",
+        admin: ["kou029w"],
+        owner: "{{ site.github.owner_name }}",
+        repo: "{{ site.github.repository_name }}",
+        id: "{{ page.urlm }}",
+      }).render("gitalk-container");
+    </script>
   </body>
 </html>
