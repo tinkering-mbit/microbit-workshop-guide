@@ -112,7 +112,7 @@
       "row_id": 14,
       "種別": "入力装置",
       "名称": "温度・湿度・気圧センサー (BME280)",
-      "対象の物理量または現象": "温度 (℃)・湿度 (%)・気圧 (Pa)",
+      "対象の物理量または現象": "温度 (℃)・湿度 (%)・気圧 (hPa)",
       "サンプルコード.URL": "https://makecode.microbit.org/_PjC5b1FYXY9Y",
       "サンプルコード.名称": "BME280 (温度・湿度・気圧計)",
       "説明.URL": "https://makecode.microbit.org/pkg/makecode-extensions/bme280"
