@@ -12,9 +12,9 @@
   {% for device in site.data.devices.data %}
   <tr>
     <td>
-      <a href="{{ device['サンプルコード.URL'] }}" target="_blank" button>
+      <a href="{{ device['サンプルコードURL'] }}" target="_blank">
         <img
-          alt="{{ device['サンプルコード.短い名前'] }}"
+          alt="{{ device['サンプルコード短い名前'] }}"
           src="https://img.shields.io/badge/{{ 'MakeCode' | cgi_escape }}-3454d1"
           loading="lazy"
           style="margin: 0;"
@@ -22,11 +22,11 @@
       </a>
     </td>
     <td>
-      {% if device['サンプルコード.説明URL'] == blank %}
-      {{ device['サンプルコード.短い名前'] }}
+      {% if device['サンプルコード説明URL'] == blank %}
+      {{ device['サンプルコード短い名前'] }}
       {% else %}
-      <a href="{{ device['サンプルコード.説明URL'] }}" target="_blank"
-        >{{ device['サンプルコード.短い名前'] }}</a
+      <a href="{{ device['サンプルコード説明URL'] }}" target="_blank"
+        >{{ device['サンプルコード短い名前'] }}</a
       >
       {% endif %}
     </td>

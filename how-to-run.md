@@ -1,11 +1,7 @@
 ---
-title: 基本的なサンプルコード
+title: サンプルコードの実行方法
 tag: プログラミング入門
 ---
-
-micro:bit と Grove Inventor Kit に付属しているデバイスを中心に、基本となるサンプルコードを紹介します。
-
-{% include basic-examples.html %}
 
 ## サンプルコードの実行方法
 

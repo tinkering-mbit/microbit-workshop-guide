@@ -1,0 +1,9 @@
+{% assign example = site.data.devices.data | where: 'サンプルコード短い名前', include.key | first %}
+{% if example %}<a href="{{ example['サンプルコードURL'] }}" target="_blank">
+  <img
+    alt="{{ include.key }}"
+    src="https://img.shields.io/badge/MakeCode-3454d1"
+    loading="lazy"
+    style="margin: 0;"
+  />
+</a>{% endif %}
