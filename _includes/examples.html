@@ -4,10 +4,10 @@
   </caption>
   <tr>
     <th>サンプルコード</th>
+    <th>QRコード</th>
     <th>名前</th>
     <th>デバイス</th>
     <th>物理量/現象</th>
-    <th>種別</th>
   </tr>
   {% for device in site.data.devices.data %}
   <tr>
@@ -15,16 +15,28 @@
       <a href="{{ device['サンプルコードURL'] }}" target="_blank">
         <img
           alt="{{ device['サンプルコード短い名前'] }}"
-          src="https://img.shields.io/badge/{{ 'MakeCode' | cgi_escape }}-3454d1"
+          src="https://img.shields.io/badge/MakeCode-3454d1"
           loading="lazy"
           style="margin: 0;"
         />
       </a>
     </td>
     <td>
-      {% if device['サンプルコード説明URL'] == blank %}
-      {{ device['サンプルコード短い名前'] }}
-      {% else %}
+      <a
+        href="https://chart.apis.google.com/chart?cht=qr&chs=500&chl={{ device['サンプルコードURL'] | cgi_escape }}"
+        target="_blank"
+      >
+        <img
+          alt="{{ device['サンプルコード短い名前'] }} QRコード"
+          src="https://chart.apis.google.com/chart?cht=qr&chs=74&chl={{ device['サンプルコードURL'] | cgi_escape }}"
+          loading="lazy"
+          style="margin: 0;"
+        />
+      </a>
+    </td>
+    <td>
+      {% if device['サンプルコード説明URL'] == blank %} {{
+      device['サンプルコード短い名前'] }} {% else %}
       <a href="{{ device['サンプルコード説明URL'] }}" target="_blank"
         >{{ device['サンプルコード短い名前'] }}</a
       >
@@ -32,7 +44,6 @@
     </td>
     <td>{{ device['名称'] }}</td>
     <td>{{ device['対象の物理量または現象'] }}</td>
-    <td>{{ device['種別'] }}</td>
   </tr>
   {% endfor %}
 </table>
