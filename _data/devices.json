@@ -126,9 +126,9 @@
       "難易度": "3",
       "名称": "🌧 温度・湿度・気圧センサー (BME280)",
       "対象の物理量または現象": "温度 (℃)・湿度 (%)・気圧 (hPa)",
-      "サンプルコードURL": "https://makecode.microbit.org/#pub:_PjC5b1FYXY9Y",
+      "サンプルコードURL": "https://makecode.microbit.org/#pub:_Jaf0W93v9RMp",
       "サンプルコード短い名前": "温度・湿度・気圧計",
-      "サンプルコード説明URL": "https://makecode.microbit.org/pkg/makecode-extensions/bme280"
+      "サンプルコード説明URL": "https://mb.d-side.info/2018/04/21/grove%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%82%92microbit%E3%81%AB%E3%81%A4%E3%81%AA%E3%81%90%E3%82%B7%E3%83%BC%E3%83%AB%E3%83%89/"
     },
     {
       "row_id": 15,
