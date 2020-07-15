@@ -33,7 +33,7 @@ micro:bit の側部の穴に針を通します。
 
 ![外観](https://i.gyazo.com/a4d497345f1cc70fa6987436e71e6bdf.jpg)
 
-micro:bit に電池を取り付けて完成です。
+micro:bit に電池を取り付けて完成です。電池はマスクのウラ面など見えにくいところに隠しましょう。
 
 ![電池を取り付ける](https://i.gyazo.com/a0756793234eac8813f472b495a8315f.jpg)
 
@@ -41,14 +41,31 @@ micro:bit に電池を取り付けて完成です。
 
 無線で受け取った文字列をもとに表情を表示するプログラムです。マスクに取り付けてある側の micro:bit に書き込みます。
 
-無線グループは `2` にしましたが、実際に試すときは無線グループが周囲の人と同じ番号にならないよう変更しましょう。
+無線グループは `2` にしました。実際に試すときは周囲の人と無線グループが同じ番号にならないよう変更しましょう。
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Hks2J6TtthLm" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
 
-### プログラム (送信側)
+| 受け取る文字列 | 意味   |
+| -------------- | ------ |
+| `happiness`    | 幸福   |
+| `sadness`      | 悲しみ |
+| `anger`        | 怒り   |
+| `contempt`     | 軽蔑   |
+| `disgust`      | 不愉快 |
+| `fear`         | 恐れ   |
+| `surprise`     | 驚き   |
+| 上記以外       | 無関心 |
 
-マスクの表情を制御するための手元のコントローラーのプログラムです。
+### プログラム (コントローラー側)
+
+マスクの表情を制御するための手元のコントローラーのプログラムです。A/B ボタンを押すと、それぞれ `happiness`/`sadness` が送信されます。
 
 マスク側のプログラムに合わせて無線グループを設定します。
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_duCMMUY4wUA0" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+
+### この作品に使われている機能
+
+マスク側: LED 画面 (出力装置)、無線
+
+コントローラー側: A/B ボタン (入力装置)、無線
