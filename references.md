@@ -22,7 +22,7 @@ tag: 付録
 
 ### Grove Inventor Kit
 
-初学者でも簡単・安全に各種デバイスを接続できるよう、統一コネクタでモジュール化したものとして最も広く使われている、[Seeed Studio](https://www.seeedstudio.com/) による Grove の micro:bit 対応入門キットです。少々高くても簡単に使えることを優先したい場合によく使われています。使い方なども一通り日本語での解説が用意されています。
+初学者でも簡単・安全に各種デバイスを接続できるよう、統一コネクタでモジュール化したものとして最も広く使われている、[Seeed Studio](https://www.seeedstudio.com/) による [Grove System](https://wiki.seeedstudio.com/Grove_System/) の micro:bit 対応入門キットです。少々高くても簡単に使えることを優先したい場合によく使われています。使い方なども一通り日本語での解説が用意されています。
 
 ### Grove Inventor Kit の使い方
 
