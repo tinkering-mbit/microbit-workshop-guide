@@ -21,7 +21,7 @@
 
 ![マスクに針を通す](https://i.gyazo.com/7d98b5f3a36e4a113c64c0d08c203c45.jpg)
 
-micro:bit の側部には穴に針を通します。
+micro:bit の側部の穴に針を通します。
 
 ![micro:bitに針を通す](https://i.gyazo.com/e95b646aa36c6e8a155352fb4223f654.jpg)
 
