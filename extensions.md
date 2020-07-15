@@ -1,25 +1,29 @@
 ---
-title: 拡張ボードと外部デバイスの紹介
+title: 拡張ボードと外部デバイス
 tag: プログラミング入門
 ---
 
-## 拡張ボードの紹介
+## 拡張ボードと外部デバイス
+
+micro:bit の端子には色々な外部デバイスを接続して利用できますが、ここではその中でも利用頻度が高いものをいくつか紹介します。
+
+これ以外のセンサー類については次に紹介する Grove Invenor Kit や Keyestudio 37 in 1 Starter Kit の解説ページや、[サンプルコード集](examples.html) のデバイスリスト表、作品例などを参考にしてご利用ください。
 
 ### Grove Inventor Kit の機能
-
-#### 👋 Grove ジェスチャーセンサー (PAJ7620U2)
-
-人や物体の動きを認識します。拡張機能「Grove」を使います。
-{% include badge.html key='ジェスチャーの取得' %}
 
 #### 📏 Grove 超音波測距センサー (HC-SR04)
 
 距離 (cm)を計ります。拡張機能「Grove」を使います。
 {% include badge.html key='超音波測距センサー' %}
 
+#### 👋 Grove ジェスチャーセンサー (PAJ7620U2)
+
+人や物体の動きを認識します。拡張機能「Grove」を使います。
+{% include badge.html key='ジェスチャーの取得' %}
+
 #### ✨ NeoPixel を光らせる
 
-NeoPixel を発光させます。拡張機能「Neopixel」を使います。
+NeoPixel (フルカラー LED) を発光させます。拡張機能「Neopixel」を使います。
 {% include badge.html key='NeoPixelを光らせる' %}
 
 #### 🎵 Grove スピーカー
@@ -31,7 +35,7 @@ P0 に接続したスピーカーから音を鳴らします。
 
 <iframe title="micro:bit Grove 入門キット - Seeedウィキ（日本語版）" src="https://hatenablog-parts.com/embed?url=https://wiki.seeedstudio.com/jp/Grove-Inventor-Kit-for-microbit/" width="100%" height="150" frameborder="0" scrolling="no" loading="lazy"></iframe>
 
-### Keyestudio 37 in 1 Starter Kit の機能
+### Keyestudio 37 in 1 Starter Kit
 
 #### 🎙 サウンドセンサー (コンデンサーマイク)
 
