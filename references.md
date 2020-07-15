@@ -17,6 +17,9 @@ tag: 付録
 
 - [micro:bit(マイクロビット)ではじめるプログラミング教育](https://sanuki-tech.net/micro-bit/)
   - サヌキテックネットによる micro:bit の独習サポートサイトです
+- [micro:bitでものづくり入門](https://note.com/tapioka24/m/m90ba1436540b)
+  - micro:bit でのセンサーの扱い方を JavaScript でプログラミングしながら学ぶシリーズ
+  - 執筆現在、Grove Inventor Kit 利用時の解説記事が用意されています
 
 ---
 
@@ -31,6 +34,9 @@ tag: 付録
 <iframe title="micro:bitでものづくり入門｜Hayato Nishioka｜note" src="https://hatenablog-parts.com/embed?url=https://note.com/tapioka24/m/m90ba1436540b" width="100%" height="150" frameborder="0" scrolling="no" loading="lazy"></iframe>
 
 <iframe title="Grove Inventor Kitを使ってみよう" src="https://hatenablog-parts.com/embed?url=https://news.mynavi.jp/article/makeprogram-31/" width="100%" height="150" frameborder="0" scrolling="no" loading="lazy"></iframe>
+
+<iframe title="micro:bitとGROVE Inventor Kitを使ったものづくり入門(1)　導入編" src="https://hatenablog-parts.com/embed?url=https://note.com/tapioka24/n/n3141ed06ecf2" width="100%" height="150" frameborder="0" scrolling="no" loading="lazy"></iframe>
+
 
 ### Grove Inventor Kit の販売店
 
