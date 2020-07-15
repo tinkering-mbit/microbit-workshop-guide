@@ -75,7 +75,7 @@
       "種別": "入力装置",
       "難易度": "1",
       "名称": "👇 タッチセンサー (内蔵)",
-      "対象の物理量または現象": "静電容量・指が触れたら",
+      "対象の物理量または現象": "GND端子と一緒に触れたら",
       "サンプルコードURL": "https://makecode.microbit.org/#pub:_f3e47uckADLz",
       "サンプルコード短い名前": "端子に触れた回数",
       "サンプルコード説明URL": "https://makecode.microbit.org/reference/input/on-pin-pressed"
