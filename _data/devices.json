@@ -46,9 +46,9 @@
       "難易度": "1",
       "名称": "🌞 明るさセンサー (内蔵)",
       "対象の物理量または現象": "照度",
-      "サンプルコードURL": "https://makecode.microbit.org/#pub:_cetA5h6DF41v",
+      "サンプルコードURL": "https://makecode.microbit.org/#pub:_95pXi0fVeKFj",
       "サンプルコード短い名前": "日照センサー",
-      "サンプルコード説明URL": "https://microbit.org/projects/make-it-code-it/sunlight-sensor/"
+      "サンプルコード説明URL": "https://makecode.microbit.org/reference/input/light-level"
     },
     {
       "row_id": 7,
