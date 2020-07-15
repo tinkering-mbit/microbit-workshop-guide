@@ -17,7 +17,7 @@ tag: micro:bitの機能
 校正が完了するまでプログラムは一時停止します。
 校正は、LED 画面をすべて点灯するように機体を回転させることで完了します。
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:75.000%;"><iframe src="https://streamable.com/e/5c9ppl?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+<div style="width:100%;height:0px;position:relative;padding-bottom:75.000%;"><iframe src="https://streamable.com/e/5c9ppl?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;" loading="lazy"></iframe></div>
 
 ## 磁場
 
@@ -25,4 +25,4 @@ tag: micro:bitの機能
 
 ## 参考文献
 
-<iframe title="コンパス" src="https://hatenablog-parts.com/embed?url=https://makecode.microbit.org/projects/compass" width="100%" height="150" frameborder="0" scrolling="no"></iframe>
+<iframe title="コンパス" src="https://hatenablog-parts.com/embed?url=https://makecode.microbit.org/projects/compass" width="100%" height="150" frameborder="0" scrolling="no" loading="lazy"></iframe>

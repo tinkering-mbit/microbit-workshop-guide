@@ -9,4 +9,4 @@ tag: micro:bitの機能
 
 ## 参考文献
 
-<iframe title="Thermometer | micro:bit" src="https://hatenablog-parts.com/embed?url=https://microbit.org/projects/make-it-code-it/thermometer/" width="100%" height="150" frameborder="0" scrolling="no"></iframe>
+<iframe title="Thermometer | micro:bit" src="https://hatenablog-parts.com/embed?url=https://microbit.org/projects/make-it-code-it/thermometer/" width="100%" height="150" frameborder="0" scrolling="no" loading="lazy"></iframe>
