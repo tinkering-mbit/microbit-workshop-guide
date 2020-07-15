@@ -37,11 +37,13 @@ micro:bit に電池を取り付けて完成です。電池はマスクのウラ�
 
 ![電池を取り付ける](https://i.gyazo.com/a0756793234eac8813f472b495a8315f.jpg){:loading="lazy"}
 
-### プログラム (マスク側)
+### マスク側のプログラム
 
 無線で受け取った文字列をもとに表情を表示するプログラムです。マスクに取り付けてある側の micro:bit に書き込みます。
 
 無線グループは `2` にしました。実際に試すときは周囲の人と無線グループが同じ番号にならないよう変更しましょう。
+
+[![コントローラー側のプログラム](https://img.shields.io/badge/MakeCode-3454d1){:loading="lazy" style="margin: 0;"}](https://makecode.microbit.org/#pub:_Hks2J6TtthLm)
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_Hks2J6TtthLm" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin" loading="lazy"></iframe></div>
 
@@ -56,11 +58,13 @@ micro:bit に電池を取り付けて完成です。電池はマスクのウラ�
 | `surprise`     | 驚き   |
 | 上記以外       | 無関心 |
 
-### プログラム (コントローラー側)
+### コントローラー側のプログラム
 
 マスクの表情を制御するための手元のコントローラーのプログラムです。A/B ボタンを押すと、それぞれ `happiness`/`sadness` が送信されます。
 
 マスク側のプログラムに合わせて無線グループを設定します。
+
+[![コントローラー側のプログラム](https://img.shields.io/badge/MakeCode-3454d1){:loading="lazy" style="margin: 0;"}](https://makecode.microbit.org/#pub:_duCMMUY4wUA0)
 
 <div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_duCMMUY4wUA0" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin" loading="lazy"></iframe></div>
 
