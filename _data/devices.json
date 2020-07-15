@@ -200,6 +200,16 @@
     },
     {
       "row_id": 22,
+      "種別": "出力装置",
+      "難易度": "3",
+      "名称": "⚙️ DCモーター (MOSFET IRF520)",
+      "対象の物理量または現象": "回転運動",
+      "サンプルコードURL": "https://makecode.microbit.org/#pub:_H0CD3kKLP3iA",
+      "サンプルコード短い名前": "傾きに合わせて回す",
+      "サンプルコード説明URL": "https://streamable.com/cjwfp4"
+    },
+    {
+      "row_id": 23,
       "種別": "他",
       "難易度": "2",
       "名称": "📻 Bluetooth (内蔵)",
@@ -209,7 +219,7 @@
       "サンプルコード説明URL": "https://makecode.microbit.org/projects/voting-machine"
     },
     {
-      "row_id": 23,
+      "row_id": 24,
       "種別": "他",
       "難易度": "2",
       "名称": "📻 Bluetooth (内蔵)",
@@ -219,5 +229,5 @@
       "サンプルコード説明URL": "https://makecode.microbit.org/projects/voting-machine"
     }
   ],
-  "total": 22
+  "total": 23
 }
