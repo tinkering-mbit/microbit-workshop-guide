@@ -9,6 +9,9 @@ tag: 付録
 
 {% include examples.html %}
 
+- Grove Inventor Kit を使う場合、[入門キットの解説ページ](https://wiki.seeedstudio.com/jp/Grove-Inventor-Kit-for-microbit/) もご覧ください。
+- Keystudio 37 in スターターキットを使う場合、[キット一覧ページ](https://www.micro-bit.info/microbit%e5%b0%82%e7%94%a8-37in%e3%82%b9%e3%82%bf%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%88) もご覧ください。
+
 ## その他の作品例
 
 - [表情が見えるマスク](examples/emotional-mask.html)
