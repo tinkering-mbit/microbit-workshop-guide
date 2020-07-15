@@ -47,7 +47,7 @@ tag: 付録
 
 ### Keyestudio 37 in 1 Starter Kit
 
-Grove のようにモジュール化はされていないが、国内でも入手性があり比較的安価に多数の micro:bit 対応デバイスがまとまっている、[keystudio](https://www.keyestudio.com/) によるセンサーキットです。[専用のサイト](https://www.micro-bit.info/microbit%e5%b0%82%e7%94%a8-37in%e3%82%b9%e3%82%bf%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%88) で各モジュールひとつひとつの説明、配線図、プログラミング例など日本語で説明されているため使いやすくなっています。キットだけでなく[ばら売りもされています](https://microbit.buyshop.jp/)。
+Grove のようにモジュール化はされていないが、国内でも入手性があり比較的安価に多数の micro:bit 対応デバイスがまとまっている、[Keyestudio](https://www.keyestudio.com/) によるセンサーキットです。[専用のサイト](https://www.micro-bit.info/microbit%e5%b0%82%e7%94%a8-37in%e3%82%b9%e3%82%bf%e3%83%bc%e3%82%bf%e3%83%bc%e3%82%ad%e3%83%83%e3%83%88) で各モジュールひとつひとつの説明、配線図、プログラミング例など日本語で説明されているため使いやすくなっています。キットだけでなく[ばら売りもされています](https://microbit.buyshop.jp/)。
 
 ### Keyestudio 37 in 1 Starter Kit の使い方
 
