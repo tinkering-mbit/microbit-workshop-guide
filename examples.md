@@ -21,5 +21,5 @@ tag: 付録
 - [micro:bit で動作するサンプルプログラム](https://sanuki-tech.net/micro-bit/appendix-sample-program/)
   - サヌキテックネットのサンプルプログラム集ページです。いろいろな応用例が丁寧に解説されています。
 - [ロボットアーム](https://www.youtube.com/watch?v=ntgL5sQbmvU)
-  - 超音波測距センサーと複数のサーボモーターを組み合わせた作品例です。
+  - 超音波測距センサーと複数のサーボモーターを組み合わせた作品例です。[配線の写真](https://gyazo.com/0c14abfff54b79700076aad471b5ae53.jpg)を参照してください。
   - [![ロボットアーム](https://img.shields.io/badge/MakeCode-3454d1){:loading="lazy" style="margin: 0;"}](https://makecode.microbit.org/#pub:_i94TdTCeyKmq)
