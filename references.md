@@ -30,6 +30,8 @@ tag: 付録
 
 <iframe title="micro:bitでものづくり入門｜Hayato Nishioka｜note" src="https://hatenablog-parts.com/embed?url=https://note.com/tapioka24/m/m90ba1436540b" width="100%" height="150" frameborder="0" scrolling="no"></iframe>
 
+<iframe title="Grove Inventor Kitを使ってみよう" src="https://hatenablog-parts.com/embed?url=https://news.mynavi.jp/article/makeprogram-31/" width="100%" height="150" frameborder="0" scrolling="no"></iframe>
+
 ### Grove Inventor Kit の販売店
 
 - [スイッチサイエンス](https://www.switch-science.com/catalog/3389/)
