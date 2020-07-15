@@ -227,7 +227,17 @@
       "サンプルコードURL": "https://makecode.microbit.org/#pub:_K5h541U6keF2",
       "サンプルコード短い名前": "投票ダッシュボード",
       "サンプルコード説明URL": "https://makecode.microbit.org/projects/voting-machine"
+    },
+    {
+      "row_id": 25,
+      "種別": "他",
+      "難易度": "3",
+      "名称": "📻 Bluetooth (内蔵)",
+      "対象の物理量または現象": "電磁波 (強度)",
+      "サンプルコードURL": "https://makecode.microbit.org/#pub:_CLCdirHEMahL",
+      "サンプルコード短い名前": "電波強度",
+      "サンプルコード説明URL": "https://makecode.microbit.org/reference/radio/received-packet"
     }
   ],
-  "total": 23
+  "total": 24
 }
