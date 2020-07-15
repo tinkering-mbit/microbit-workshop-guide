@@ -22,3 +22,7 @@ tag: micro:bitの機能
 ## 磁場
 
 コンパスは磁場に反応します。たとえば micro:bit を金属製の物体に取り付けたりすると、地磁気の読み取り精度に悪影響を及ぼします。
+
+## 参考文献
+
+<iframe title="コンパス" src="https://hatenablog-parts.com/embed?url=https://makecode.microbit.org/projects/compass" width="100%" height="150" frameborder="0" scrolling="no"></iframe>
