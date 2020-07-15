@@ -8,7 +8,7 @@
       "対象の物理量または現象": "温度 (℃)",
       "サンプルコードURL": "https://makecode.microbit.org/#pub:_fEaXEL7KUU4x",
       "サンプルコード短い名前": "温度計",
-      "サンプルコード説明URL": "https://microbit.org/projects/make-it-code-it/thermometer/"
+      "サンプルコード説明URL": "devices/thermometer.html"
     },
     {
       "row_id": 3,
@@ -48,7 +48,7 @@
       "対象の物理量または現象": "照度",
       "サンプルコードURL": "https://makecode.microbit.org/#pub:_95pXi0fVeKFj",
       "サンプルコード短い名前": "日照センサー",
-      "サンプルコード説明URL": "/devices/light-level.html"
+      "サンプルコード説明URL": "devices/light-level.html"
     },
     {
       "row_id": 7,
@@ -58,7 +58,7 @@
       "対象の物理量または現象": "地磁気",
       "サンプルコードURL": "https://makecode.microbit.org/#pub:_68yajabfmHJy",
       "サンプルコード短い名前": "コンパス",
-      "サンプルコード説明URL": "/devices/compass.html"
+      "サンプルコード説明URL": "devices/compass.html"
     },
     {
       "row_id": 8,
@@ -78,7 +78,7 @@
       "対象の物理量または現象": "GND端子と一緒に触れたら",
       "サンプルコードURL": "https://makecode.microbit.org/#pub:_f3e47uckADLz",
       "サンプルコード短い名前": "端子に触れた回数",
-      "サンプルコード説明URL": "/devices/on-pin-pressed.html"
+      "サンプルコード説明URL": "devices/on-pin-pressed.html"
     },
     {
       "row_id": 10,
