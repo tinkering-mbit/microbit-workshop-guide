@@ -6,16 +6,16 @@ tag: 先生向け
 ## このガイドへの貢献
 
 誤字・脱字の修正、ドキュメント追加、その他改善するための Pull Request を歓迎します。
-また、そのほか質問、提案などあれば GitHub Issues にてお気軽にご報告ください。
+また、そのほか質問、提案などあれば GitHub Issues やページ末尾の入力フォーム (GitHub Issues に書き込まれるため Github アカウントとログインが必要) にてお気軽にご報告ください。
 
 ## 修正の確認方法
 
-手元の環境でも Docker Compose を使って修正内容を確認できます。
+簡単な習性であれば手元の動作確認無しで Pull Request を送っていただいても構いませんが、大きな修正を行う場合、事前に編集結果を確認していただくには、手元の環境で Docker Compose を使ってご確認ください。
 あらかじめ Docker Compose をインストールしてください。
 
 [Docker Compose のインストール](https://docs.docker.com/compose/install/)
 
-次のコマンドで開発サーバーを起動します。
+このリポジトリを clone したら次のコマンドで開発サーバーを起動します。
 
 ```sh
 docker-compose up
