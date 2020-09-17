@@ -23,7 +23,7 @@ tag: micro:bitの機能
 校正が完了するまでプログラムは一時停止します。
 校正は、LED 画面をすべて点灯するように機体を色々な方向に傾け、回転させることで完了します。
 
-<div style="width:100%;height:0px;position:relative;padding-bottom:75.000%;"><iframe src="https://streamable.com/e/5c9ppl?loop=0" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;" loading="lazy"></iframe></div>
+<div style="width:100%;height:0;position:relative;padding-bottom:75.000%;"><iframe src="https://www.youtube.com/embed/FTSoCqeYe08?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="100%" height="100%" style="width:100%;height:100%;position:absolute;left:0;top:0;overflow:hidden;" loading="lazy"></iframe></div>
 
 ## 参考文献
 
