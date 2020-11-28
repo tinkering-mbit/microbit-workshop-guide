@@ -10,7 +10,7 @@ tag: 先生向け
 
 ## 修正の確認方法
 
-簡単な習性であれば手元の動作確認無しで Pull Request を送っていただいても構いませんが、大きな修正を行う場合、事前に編集結果を確認していただくには、手元の環境で Docker Compose を使ってご確認ください。
+簡単な修正であれば手元の動作確認無しで Pull Request を送っていただいても構いませんが、大きな修正を行う場合、事前に編集結果を確認していただくには、手元の環境で Docker Compose を使ってご確認ください。
 あらかじめ Docker Compose をインストールしてください。
 
 [Docker Compose のインストール](https://docs.docker.com/compose/install/)
